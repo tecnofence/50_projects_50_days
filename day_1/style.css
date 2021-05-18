@@ -5,6 +5,7 @@
 }
 
 body {
+    background-image: linear-gradient(to top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
     font-family: 'Roboto', sans-serif;
     display: flex;
     align-items: center;
@@ -55,6 +56,9 @@ body {
 }
 
 @media(max-width: 480px){
+    * {
+        background: linear-gradient(to top, #211c31, #28223b, #2f2746, #362d51, #3d335c, #404473, #3f558b, #3768a2, #008cc4, #00b0db, #00d4e7, #03f7e7);
+    }
     .container{
         width: 100vw;
     }
